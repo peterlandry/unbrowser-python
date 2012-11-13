@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
  
  
 setup(
@@ -20,5 +20,6 @@ setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
         "Programming Language :: Python"
-    ]
+    ],
+    install_requires=['requests >= 0.14.2']
 )
