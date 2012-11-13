@@ -1,4 +1,4 @@
-import requests, json
+import requests
 
 
 class Response(object):
@@ -23,7 +23,6 @@ class Unbrowser(object):
         self.access_key = access_key
 
     def _request(self, method_func, data_dict):
-        print json
         return Response(
             self.unbrowser_url,
             method_func(self.url, data=data_dict, auth=(self.user, self.access_key, ))
