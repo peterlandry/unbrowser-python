@@ -7,7 +7,7 @@ setup(
     author = "Peter Landry",
     author_email = "peter.landry@gmail.com",
     description = "A python client library for Unbrowser.",
-    long_description = open("README").read(),
+    long_description = open("README.md").read(),
     license = "BSD",
     url = "https://github.com/peterlandry/unbrowser-python/",
     packages = [
