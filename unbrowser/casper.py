@@ -33,6 +33,9 @@ class Casper(object):
     def render(self):
         return '\n'.join(self.js)
 
+    def zoom(self, factor=1):
+        self.js.append("casper.zoom(%s);" % factor)
+
 
 class Capture(object):
     def __init__(self, filename):
